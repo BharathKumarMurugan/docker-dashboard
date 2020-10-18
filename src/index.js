@@ -5,10 +5,11 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 import Dashboard from "./components/dashboard";
+import Containers from "./components/containers";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Dashboard />
+    <Containers />
   </React.StrictMode>,
   document.getElementById("root")
 );
