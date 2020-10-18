@@ -9,7 +9,7 @@ class Dashboard extends Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <div className="card border-0 shadow-sm p-3 mb-3 bg-white rounded">
+            <div className="card border-0 shadow-sm p-3 mb-3 mt-3 bg-white rounded">
               <table className="table table-borderless m-2">
                 <tbody>
                   <tr className="row">
@@ -35,7 +35,7 @@ class Dashboard extends Component {
           {/* Docker Container Details */}
           <div className="col-sm-3">
             <div
-              className="card border-0 shadow-sm bg-white rounded m-2"
+              className="card border-0 shadow-sm bg-white rounded mr-2 mb-2"
               style={{ "max-width": "18rem", height: "6rem" }}
             >
               <div className="card-body text-secondary">
@@ -50,7 +50,7 @@ class Dashboard extends Component {
           {/* Docker Image Details */}
           <div className="col-sm-3">
             <div
-              className="card border-0 shadow-sm bg-white rounded m-2"
+              className="card border-0 shadow-sm bg-white rounded  mr-2 mb-2"
               style={{ "max-width": "18rem", height: "6rem" }}
             >
               <div className="card-body text-secondary">
@@ -66,7 +66,7 @@ class Dashboard extends Component {
           {/* Docker Volume Details */}
           <div className="col-sm-3">
             <div
-              className="card  border-0 shadow-sm bg-white rounded m-2"
+              className="card  border-0 shadow-sm bg-white rounded  mr-2 mb-2"
               style={{ "max-width": "18rem", height: "6rem" }}
             >
               <div className="card-body text-secondary">
@@ -79,7 +79,7 @@ class Dashboard extends Component {
           {/* Docker Network Details */}
           <div className="col-sm-3">
             <div
-              className="card  border-0 shadow-sm bg-white rounded m-2"
+              className="card  border-0 shadow-sm bg-white rounded  mr-2 mb-2"
               style={{ "max-width": "18rem", height: "6rem" }}
             >
               <div className="card-body text-secondary">
